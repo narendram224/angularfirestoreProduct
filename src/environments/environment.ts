@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   firestoreConfig:{
-    apiKey: "AIzaSyD71N0HS5G9iV70Y9o1y8r_CNJLvCWWcjg",
+    apiKey: "give your own api key",
     authDomain: "productfirestore.firebaseapp.com",
     databaseURL: "https://productfirestore.firebaseio.com",
     projectId: "productfirestore",
