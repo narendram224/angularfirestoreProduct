@@ -1,0 +1,11 @@
+
+<div *ngIf="products.lenght>0; else noproduct">
+  <ul>
+    <li *ngFor="let item of products">
+      {{item.name}}<br>{{item.description}}
+    </li>
+  </ul>
+</div>
+<ng-template #noproduct>
+  <p>there are no product right now</p>
+</ng-template>
